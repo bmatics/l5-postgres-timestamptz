@@ -13,8 +13,8 @@
         "illuminate/support": "5.0.*"
     },
     "autoload": {
-        "psr-0": {
-            "Bmatics\\PostgresTZ": "src/"
+        "psr-4": {
+            "Bmatics\\PostgresTZ\\": "src/"
         }
     },
     "minimum-stability": "dev"
