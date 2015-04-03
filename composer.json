@@ -1,0 +1,21 @@
+{
+    "name": "bmatics/postgrestz",
+    "description": "Postgres driver using timestamp with timezone for Laravel 5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Matics",
+            "email": "benjaminmatics@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bmatics\\PostgresTZ": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
