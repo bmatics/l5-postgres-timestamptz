@@ -20,12 +20,6 @@ class PostgresTZServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app->resolving('db', function($db)
-        {
-            $db->extend('pgsql', function($config)
-            {
-                return new PostgresTZConnection($config);
-            });
-        });
+		$this->app->bind('db.connection.pgsql', 'Bmatics\PostgresTZ\Database\PostgresTZConnection');
 	}
 }
