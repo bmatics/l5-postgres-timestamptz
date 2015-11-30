@@ -12,6 +12,6 @@ class PostgresTZGrammar extends PostgresGrammar
      */
     public function getDateFormat()
     {
-        return 'Y-m-d H:i:se';
+        return 'Y-m-d H:i:sP';
     }
 }
